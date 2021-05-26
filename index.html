@@ -35,6 +35,10 @@
 		.icon-mail:before {
 		  content: "\e9da";
 		}
+		.icon-appleinc {
+		    position: relative;
+			top: -2px;
+		}
 		.icon-appleinc:before {
 		  content: "\ec3f";
 		}
@@ -59,25 +63,41 @@
 		.icon-youtube-with-circle:before{content:"\ea7f"}
 		.icon-amazon:before{content:"\ec08"}
 		
-		#s1 {background: url(assets/background.jpg) fixed no-repeat top center / auto; min-height: 30vw; position: relative;}
+		#s1 {
+			background: url(assets/background.jpg) no-repeat center center / cover; 
+			min-height: 39vw; 
+			position: relative;
+			padding-bottom: 15px;
+		}
 		#s2, #s3 {
 			background: #1a1a1a; position: relative; display: flex; align-items: center;
-			padding-left: 25vw; padding-right: 25vw; padding-top: 30px; padding-bottom: 90px;
+			
 		}
-		h1 {text-align: center; color: white; font-family: 'Helvetica', sans-serif; font-size: 5vw; margin: 0; line-height: 30vw; text-transform: uppercase; text-shadow: 0 0px 15px #000; position: relative;}
+		h1 {
+			text-align: center; 
+			color: white; 
+			font-family: 'Helvetica', sans-serif; 
+			font-size: 5vw; margin: 0; 
+			line-height: 30vw; 
+			text-transform: uppercase; 
+			text-shadow: 0 0px 15px #000; 
+			position: relative;
+			top: 16vw;
+		}
 		#soc {position: absolute; line-height: initial; font-size: 24px; text-align: center; left: calc(50% - 56px);}
 		#soc a, .soc a {color: #fff; text-decoration: none;}
 		.soc a {font-size: 24px;}
+		.s {padding-left: 25vw; padding-right: 25vw; padding-top: 30px; padding-bottom: 90px;}
 		
 		@media screen and (max-width: 720px) {
-			#s2, #s3 {
+			.s {
 				padding-left: 2vw; padding-right: 2vw;
 			}
 		}
 	</style>
 </head>
 <body style="">
-	<div id="s1"  class="s" style="">
+	<div id="s1"  class="" style="">
 		<h1 style="">
 			Reverse Entropy
 			<div id="soc" style="top: 18vw;">
@@ -93,7 +113,10 @@
 		</h1>
 	</div>
 	<div style="background: #313131; height: 3px;"></div>
-	<div id="s2" class="s" style="">
+	<div>
+	
+	</div>
+	<div id="s2" class="s" style="background: #222;">
 		<div style="width: 100%; position: relative;">
 				<h2 style="color: #fff;">Liberté d'existence</h2>
 				<h3 class="soc">
@@ -108,7 +131,7 @@
 		
 	</div>
 	<div style="background: #313131; height: 3px;"></div>
-	<div id="s3" class="s" style="background: #282828;">
+	<div id="s3" class="s" style="">
 		<div style="width: 100%; position: relative;">
 				<h2 style="color: #fff;">Fallen Ego</h2>
 				<h3 class="soc">
@@ -124,6 +147,14 @@
 				<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/867324814&color=%23282d20&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/peakpointmusic" title="Peak Point(Reverse Entropy)" target="_blank" style="color: #cccccc; text-decoration: none;">Peak Point(Reverse Entropy)</a> · <a href="https://soundcloud.com/peakpointmusic/reverse-entropy-fallen-ego" title="Reverse Entropy - Fallen Ego" target="_blank" style="color: #cccccc; text-decoration: none;">Reverse Entropy - Fallen Ego</a></div>
 		</div>
 		
+	</div>
+	<div style="background: #313131; height: 3px;"></div>
+	<div class="s" style="background: #000; height: 100px; color: grey; padding-bottom: 0px;">
+		Terms
+		<br>
+		About
+		<br>
+		<a target="_blank" href="https://t.me/vikholaa" style="color:grey;">Vacancies</a>
 	</div>
 
 	
